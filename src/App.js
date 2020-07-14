@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
 
+import Layout from './layouts/MainLayout';
+
 function App() {
   return (
     <div className="App">
-      <div>Peloton Compare</div>
+      <Layout />
     </div>
   );
 }
